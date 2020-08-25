@@ -1,0 +1,32 @@
+{
+	"name": "discord_bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Juminhark/discord_bot.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Juminhark/discord_bot/issues"
+	},
+	"homepage": "https://github.com/Juminhark/discord_bot#readme",
+	"dependencies": {
+		"@discordjs/opus": "^0.3.2",
+		"discord.js": "^12.3.1",
+		"dotenv": "^8.2.0",
+		"ffmpeg": "0.0.4",
+		"fluent-ffmpeg": "^2.1.2",
+		"fs": "0.0.1-security",
+		"ytdl-core": "^3.2.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
