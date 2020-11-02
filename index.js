@@ -40,9 +40,9 @@ client.on('message', async (message) => {
 
 	if (message.author.username == '붉은불곰') {
 		message.channel.send('정윤호 병신');
-	} else if (message.author.username == 'JH_Han') {
+	} else if (message.author.username == '대한미국') {
 		message.channel.send('한지협 병신');
-	} else if (message.author.username == '정윤호') {
+	} else if (message.author.username == '그리스맨') {
 		message.channel.send('이한성 병신');
 	}
 
